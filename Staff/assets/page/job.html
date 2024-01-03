@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>انبار پشتیبان</title>
+    <link rel="stylesheet" href="../style/job.css">
+    <script src="https://unpkg.com/jalali-moment/dist/jalali-moment.browser.js"></script>
+</head>
+<body dir="rtl">
+    <div class="user">
+        <div class="user-navbar">
+            <div class="title-user">
+                <h1 id="user-name">رضا پوراصغر</h1>
+                <h2 id="date-now"><script>
+                date =moment();
+                date = date.format("hh/m");
+                document.getElementById('date-now').innerHTML= date
+                </script></h2>
+            </div>
+        </div>
+    </div>
+    <!-- form -->
+    <div class="table">
+        <h1>انبار پشتیبان</h1>
+        <table class="content-table">
+            <thead>
+                <tr>
+                    <th>وضعیت</th>
+                    <th>سریال دستگاه</th>
+                    <th>تاریخ رسید</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>نصب</td>
+                    <td>316752275</td>
+                    <td>02/3/25</td>
+                </tr>
+                <tr>
+                    <td>انصراف</td>
+                    <td>317538984</td>
+                    <td>02/3/27</td>
+                </tr>
+                <tr>
+                    <td>معیوب</td>
+                    <td>2K123275</td>
+                    <td>02/7/07</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
