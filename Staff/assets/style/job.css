@@ -106,3 +106,55 @@ h1 {
     font-weight: normal;
 }
 
+h1 {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.send {
+    text-align: center;
+    width: 100%;
+}
+
+input {
+    height: 20px;
+    text-align: center;
+    background-color: #ecf0f1;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    font-size: 13px;
+    font-weight: 200;
+    padding: 10px 0;
+    width: 80%;
+    transition: border .5s;
+}
+input:focus {
+    border: 2px solid #3498db;
+    box-shadow: none;
+}
+
+.btn {
+    border: 2px solid transparent;
+    background: #3498db;
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 40px;
+    padding: 4px 0;
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 3px;
+    box-shadow: none;
+    transition: 0.25s;
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+label {
+    font-size: 15px;
+    display: block;
+    margin-top:30px;
+    margin-bottom:10px;
+}
